@@ -28,14 +28,17 @@ Input
 The program should accept the following arguments:
 
 Argument       Type   Description
+
 width          int    The width of the world
 
 height         int    The height of the world
 
 infect-after   int    The number of generations after which the infection stage will start
-max-generations int The maximum number of generations that can
-be created. Including all phases of the game
-seed [] int The initial state of the world
+
+max-generations int   The maximum number of generations that can be created. Including all phases of the game
+
+seed []         int    The initial state of the world
+
 Example
 A suggested way to pass the parameters is:
 program [width] [height] [ infect-after ] [ max-generations ] [seed]
