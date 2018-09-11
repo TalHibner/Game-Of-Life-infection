@@ -12,9 +12,11 @@ At each step in time, the following transitions occur:
 2. Any live cell with two or three live neighbors lives on to the next generation.
 3. Any live cell with more than three live neighbors dies (overpopulation).
 4. Any dead cell with exactly three live neighbors becomes a live cell (reproduction).
+
 The grid is initiated with a seed - an initial state of alive and dead cells, and continues
 on to its next generation automatically. This process repeats itself indefinitely, or until a
 predefined number of generations pass.
+
 In the new incarnation Game of Life: Infection , we added a new phase. After a
 predefined number of generations has reached, a virus is spread around the universe
 infecting cells.
@@ -22,6 +24,7 @@ From now on the rules change, the new rules are:
 1. Any dead cell with a single live neighbor lives on to the next generation.
 2. Any live cell with no horizontal or vertical live neighbors dies.
 Input
+
 The program should accept the following arguments:
 Argument Type Description
 width int The width of the world
